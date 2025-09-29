@@ -10,6 +10,7 @@ jobs:
   j1:
     runs-on: ubuntu-24.04
     steps:
+      - uses: actions/checkout@v5.0.0
       - uses: astral-sh/setup-uv@v6.7.0
       - run: uv venv
       - run: uv pip install pyspark==4.0.0
