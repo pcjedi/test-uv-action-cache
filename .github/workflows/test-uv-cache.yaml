@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: astral-sh/setup-uv@v6.7.0
       - run: uv venv
-      - run: uv pip install pyspark
+      - run: uv pip install pyspark==4.0.0
